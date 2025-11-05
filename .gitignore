@@ -1,0 +1,27 @@
+#macOS system files
+.DS_store
+
+#Windows system files
+Thumbs.db
+
+#Node modules for tooling 
+node_modules/
+
+#Logs and temp files 
+*.log
+*.tmp
+
+#Build output for build scripts
+dist/
+build/
+
+#environment and config files for when adding APIS or forms
+.env
+.env.*
+
+#OS-generated metadata
+ehthumbs.db
+Desktop.ini
+
+#VSCode settings
+.VSCode/
