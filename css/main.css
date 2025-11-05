@@ -4,6 +4,24 @@ GLOBAL STYLES
 
 :root {}
 
+hr {
+    border: none;
+    border-top: 3px double gold;
+    color: gold;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after {
+    background: white;
+    content: "\f679";
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    font-family: "Font Awesome 6 Free"; /* Add this */
+    font-weight: 900; /* Add this - FontAwesome needs weight */
+}
 /* =======================================================
 MOBILE STYLES
 ======================================================= */
