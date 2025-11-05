@@ -4,7 +4,70 @@ GLOBAL STYLES
 
 :root {}
 
-hr {
+/* =======================================================
+MOBILE STYLES
+======================================================= */
+
+header {
+    outline: 1px solid gold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.hero {
+    outline: 1px solid blue;
+}
+
+.about {
+    outline: 1px solid green;
+}
+
+.offerings {
+    outline: 1px solid red;
+}
+
+.style {
+    outline: 1px solid green;
+}
+
+.pricing {
+    outline: 1px solid purple;
+}
+
+.faq {
+    outline: 1px solid black;
+}
+
+.contact {
+    outline: 1px solid orange;
+}
+
+.visually-hidden {
+    border: 0;
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* hr {
     border: none;
     border-top: 3px double gold;
     color: gold;
@@ -19,13 +82,9 @@ hr::after {
     padding: 0 4px;
     position: relative;
     top: -13px;
-    font-family: "Font Awesome 6 Free"; /* Add this */
-    font-weight: 900; /* Add this - FontAwesome needs weight */
-}
-/* =======================================================
-MOBILE STYLES
-======================================================= */
-
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+} */
 
 /* =======================================================
 TABLET STYLES
