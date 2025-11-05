@@ -14,15 +14,134 @@
 </head>
 
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#offerings">Offerings</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Rooted in Grace, Moved by Breath</h1>
+            <img src="/img/pexels-ketut-subiyanto-HERO_IMG.jpg"
+                alt="A person meditating outdoors with their hands on their stomach,focusing on mindfulness and breathe">
+            <p class="tagline">No perfection required, just presence.</p>
+        </section>
+        <hr class="section-divider">
+
+        <!-- about me and bio pix -->
+        <section class="about">
+            <h2>Hi, I'm Bria</h2>
+            <img src="/img/PhotobyClarkBlue.jpg" alt="full body photo of yoga instructor Bria">
+            <p class="aboutme"> I am 300-hour certified Hatha Vinyasa Yoga teacher who has been practicing for over
+                two years. I currently teach an all-levelts Vinyasa class every week and often subs for various styles
+                --including restorative, hot yoga, Vinyasa & Yin, and community classes-- at Southern Star Yoga Center
+                in Oxford, MS.
+            </p>
+            <p class="aboutTheClient">However, if you are ready to move to private practice. I am your yogi. I make
+                sure to bring warmth and balance to each class. Let me work and accomodate <span>your</span>needs and
+                goals.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, deserunt vel autem facere ab, nam vero
+                ipsam saepe corporis quidem voluptas incidunt cumque. Et praesentium voluptatibus accusantium sit
+                suscipit. Quibusdam quaerat velit itaque repudiandae temporibus vel illo animi. Nisi architecto totam
+                amet debitis ipsum aperiam corrupti. Nesciunt blanditiis officiis sint?
+            </p>
+        </section>
+        <hr class="section-divider">
+
+        <!-- yoga styles and explanitaitons -->
+        <section class="offerings" id="offerings">
+            <h3>Yoga Offerings</h3>
+            <p class="tagline2">Each style invites you into a different experience of presence and breath. All practices
+                are adapted to honor your body's unique needs and abilities.</p>
+            <div class="style" id="hatha">
+                <p class="title">Hatha Yoga</p>
+                <p class="description">Focuses on physical postures (asanas) and breathing exercises (pranayama). </p>
+            </div>
+            <div class="style" id="vinyasa">
+                <p class="title">Vinyasa Yoga</p>
+                <p class="description">Flowing movements that synchronize with the breath.</p>
+            </div>
+            <div class="style" id="iyengar">
+                <p class="title">Iyengar Yoga</p>
+                <p class="description">Emphasizes precise alignment and the use of props.</p>
+            </div>
+            <div class="style" id="yin">
+                <p class="title">Yin Yoga</p>
+                <p class="description">Holds poses for extended periods, focusing on connective tissues and fascia. </p>
+            </div>
+        </section>
+        <hr class="section-divider">
+
+        <!-- pricing -->
+        <section class="pricing" id="pricing">
+            <h3>Invest in Your Practice</h3>
+            <p class="price">$160/month</p>
+            <p>Eight private sessions each month, designed with precision and care for your body, your rhythm, and
+                your growth.</p>
+        </section>
+        <hr class="section-divider">
+
+        <!-- faqs -->
+        <section class="faq" id="faq">
+            <h3>Frequently Asked Questions</h3>
+            <details>
+                <summary>Do I need prior yoga experience?</summary>
+                Absolutely not! All levels are welcome. If you have a disability
+                or medical condition, I can modify using chairs, props, or
+                alternate positions. Each session is truly adapted for your experience and goals.
+            </details>
+            <details>
+                <summary>What does each session include?</summary>
+                Every 90-minute session includes guided postures, breathwork, relaxation, and modifications
+                to suit your body. Props like blocks, bolsters, and straps are provided.
+            </details>
+            <details>
+                <summary>How long until I notice results?</summary>
+                Results vary per person, but most students notice improvements in flexibility, strength, and
+                mindfulness within a few weeks of regular practice. Each month includes eight private,
+                90-minute sessions tailored to you.
+            </details>
+        </section>
+        <hr class="section-divider">
+
+        <!-- contact form -->
+        <section class="contact" id="contact">
+            <h3>Start Your Practice Today</h3>
+            <form action="https://formspree.io/f/mblzkqnz" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" autocomplete="email"
+                    required>
+
+                <label for="message">What are your main goals or intentions for your yoga practice?</label>
+                <textarea id="message" name="intentions" placeholder="Your message..." rows="5" required></textarea>
+
+                <label for="message">Do you have any physical considerations or accessibility needs you’d
+                    like to share?</label>
+                <textarea id="message2" name="accessibility" placeholder="Your message..." rows="5" required></textarea>
+
+                <input type="text" name="_gotcha" style="display:none">
+
+                <button type="submit">Send Message</button>
+                <p class="form-note">Your information is kept private and used only to connect about yoga sessions.</p>
+            </form>
+        </section>
+        <hr class="section-divider">
+
+    </main>
     <footer>
         <h3>Follow my journey</h3>
         <a href="https://www.instagram.com/yogi.briii?igsh=eDJ3N2dveGU0ejBv" aria-label="Instagram">
             <i class="fa-brands fa-instagram"></i>
             <span class="visually-hidden">Instagram link for Yoga with Bria</span>
         </a>
-        </section>
     </footer>
 </body>
 
