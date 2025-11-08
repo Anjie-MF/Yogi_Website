@@ -34,7 +34,7 @@ To give Bria a professional digital home and help her transition toward private 
 >  
 > Contact Form Section: name, email, phone, and open-ended questions about goals, experience, and accessibility needs. Include a line at the bottom: “Your information is kept private and used only to connect with you about yoga sessions.”  
 >  
-> Footer: “© 2025 Bria Yoga • Designed with care by a friend.” Include an Instagram icon link.  
+> Footer: Include an Instagram icon link.  
 >  
 > **Design Keywords:** grounded, serene, airy, inclusive, approachable, elegant simplicity.  
 >  
