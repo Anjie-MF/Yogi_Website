@@ -67,7 +67,31 @@ nav ul li a {
     width: 1px;
 }
 
-/* hr {
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.toast {
+    background-color: gold;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.toast.show {
+    opacity: 1;
+}
+
+hr {
     border: none;
     border-top: 3px double gold;
     color: gold;
@@ -84,7 +108,7 @@ hr::after {
     top: -13px;
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-} */
+}
 
 /* =======================================================
 TABLET STYLES
