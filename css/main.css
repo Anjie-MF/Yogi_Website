@@ -2,11 +2,55 @@
 GLOBAL STYLES
 ======================================================= */
 
-:root {}
+:root {
+
+    /* COLOR PALETTE
+Primary Background: #F9F7F4 (warm off-white)
+Secondary Background: #E8E3DC (light taupe - hero, pricing, quote sections)
+Primary Text: #2C3E2C (dark forest green)
+Secondary Text: #4A5A4A / #5A6B5A (medium greens)
+Accent Text: #7A8A7A (muted green for captions)
+Card Background: #FFFFFF
+Card Border: #E0DDD8 / #D0CCC7
+Button Background: #5A6B5A
+Footer Background: #2C3E2C
+ */
+
+
+    /* Typography
+Headings: Serif font (Georgia, Playfair Display, or similar)
+H1: 36px / line-height: 45px
+H2: 28px / line-height: 36px
+H3: 20px / line-height: 26px
+Body Text: Sans-serif (System UI, Inter, or similar)
+Regular: 14-15px / line-height: 22-26px
+Small: 12-13px / line-height: 18-20px
+Button Text: 16px / weight: 500 */
+
+
+    /* Component Sizing
+Cards: Full width (327px), height: auto, border-radius: 6-8px
+Input Fields: Height: 48px, border-radius: 4px
+Textarea Fields: Height: 100px
+Button: Height: 52px, border-radius: 6px
+Card Spacing: 25-30px margin between sections */
+}
 
 /* =======================================================
 MOBILE STYLES
 ======================================================= */
+/* 
+Layout Structure (Stack Vertically)
+
+Hero Section - Full-width background block, centered text
+Meet Bria - Left-aligned text, standard padding
+Yoga Offerings - Stacked cards (not grid), 16px gap between cards
+Pricing Banner - Full-width accent background
+FAQ - Stacked accordion-style cards
+Contact Form - Stacked form fields, full-width inputs
+Quote Section - Centered, background block
+Footer - Dark background, centered text */
+
 
 header {
     outline: 1px solid gold;
@@ -111,11 +155,25 @@ hr::after {
 }
 
 /* =======================================================
-TABLET STYLES
+TABLET STYLES 
 ======================================================= */
-@media (min-width: 500px) {}
+@media (min-width: 500px) {
+    /* TODO tomorrow if time:
+       - Bump font sizes 1-2px
+       - Optional: 2-column card grid
+       - Max-width: 700px centered
+    */
+}
 
 /* =======================================================
 DESKTOP STYLES
 ========================================================*/
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    /* TODO tomorrow:
+       - Hero: side-by-side layout
+       - Offerings: 2x2 grid or 4 columns
+       - FAQ: 2 columns
+       - Max-width: 1200px
+       - Padding: 80px
+    */
+}
